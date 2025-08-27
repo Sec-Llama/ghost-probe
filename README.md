@@ -1,6 +1,3 @@
-Got it 👍 — here’s the **entire README.md content** wrapped in **one single bash code block**, so you can copy-paste it straight into a `README.md` file. I’ll keep all the Markdown formatting inside:
-
-````bash
 # ghost-probe
 
 A simple Python 3 script to probe a given URL (HTTP or HTTPS, even on non-standard ports) and print the response headers and body, similar to `curl -i`.  
@@ -26,11 +23,12 @@ Do **not** use it for unauthorized scanning or exploitation.
 ---
 
 ## 🛠️ Installation
+
 ```bash
 git clone https://github.com/yourusername/ghost-probe.git
 cd ghost-probe
 chmod +x ghost_probe.py
-````
+```
 
 Requires **Python 3.7+**.
 
@@ -81,10 +79,3 @@ The author(s) take no responsibility for misuse of this tool.
 ## 📜 License
 
 MIT (see [LICENSE](LICENSE))
-
-```
-
-👉 In GitHub, this will render correctly because Markdown inside a bash-fenced block still shows up as Markdown text (though with monospace style).  
-
-Do you want me to also prepare it in a way where the **installation and usage commands** render with syntax highlighting, but the rest is plain Markdown (so it looks nicer on GitHub)?
-```
